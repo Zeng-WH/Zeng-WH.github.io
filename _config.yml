@@ -78,7 +78,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Andrew Zeng, 就读于北京邮电大学."
+sidebar-about-description: "Andrew Zeng, A student in Bupt."
 sidebar-avatar: https://avatars.githubusercontent.com/u/47687248?s=400&u=aa0d3ed7514a916c420a0997497949fa6eaf0d05&v=4      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
