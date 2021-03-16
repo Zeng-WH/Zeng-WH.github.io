@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+#weibo_username:     huxpro
+zhihu_username:     fen-nu-de-xiao-chong-8
+github_username:    Zeng-WH
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -84,7 +84,7 @@ sidebar-avatar: https://avatars.githubusercontent.com/u/47687248?s=400&u=aa0d3ed
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
