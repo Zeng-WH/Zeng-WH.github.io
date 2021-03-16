@@ -6,7 +6,8 @@ email: ZengWH@bupt.edu.cn
 description: "北京邮电大学学生"
 keyword: "Deep Learning, NLP"
 url: "https://github.com/Zeng-WH/Zeng-WH.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""
+test: "Attention is ALL You Need!"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
