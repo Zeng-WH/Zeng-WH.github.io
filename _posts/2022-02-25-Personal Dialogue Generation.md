@@ -1,6 +1,6 @@
-# 2022-02-25-Personal Dialogue Generation
+从personal Dialogue Generation 开始调研！
 
-- [ ] **VALUENET: A New Dataset for Human Value Driven Dialogue System （AAAI 2022）**
+**VALUENET: A New Dataset for Human Value Driven Dialogue System （AAAI 2022）**
 
 
 （1）论文提出了用于评价文本属性的10种value，以及对应的数据集和模型。具体而言，对于给定的文本，模型会产生该文本在10个属性上的得分，进而得出该文本的属性。
@@ -10,7 +10,7 @@
 
 （3）利用论文里的方法，我们应该可以实现不同属性组合的方法。
 
-- [ ] **One Chatbot Per Person: Creating Personalized Chatbots based on Implicit User Profiles （SIGIR 2021）**
+**One Chatbot Per Person: Creating Personalized Chatbots based on Implicit User Profiles （SIGIR 2021）**
 
 
 （1） 以前的Personalized chatbots需要的是显示（explict）的personal数据（比如personal chat或者convai2），该文章从large-scale的对话历史中提取隐式（implicit）的personal profiles. 基于学到的user profile来生成personalized responses.
@@ -19,7 +19,7 @@
 
 （3）在Reddit dataset和Weibo dataset上训练，数据集的形式是对于每一个用户有特定的标记，每一个用户下有很多dialogue utterances对。
 
-- [ ] **Learning Implicit User Profiles for Personalized Retrieval-BasedChatbot （CIKM 2021）**
+**Learning Implicit User Profiles for Personalized Retrieval-BasedChatbot （CIKM 2021）**
 
 
 （1） 跟上文一个组的工作，还是获取隐式的user profile. 通过建模personalized language style（using the user’s historical responses）以及personalized preferences（each post-response pair ）获得。
