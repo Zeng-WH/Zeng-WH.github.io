@@ -1,4 +1,13 @@
-从personal Dialogue Generation 开始调研！
+---
+layout:     post
+title:      "Personal Dialogue Generation"
+subtitle:   从Personal Dialogue Generation 开始调研！
+date:       2022-02-25 22:00:00
+author:     "Andrew Zeng"
+tags:
+    对话生成
+---
+
 
 **VALUENET: A New Dataset for Human Value Driven Dialogue System （AAAI 2022）**
 
