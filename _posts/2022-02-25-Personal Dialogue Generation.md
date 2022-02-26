@@ -37,3 +37,20 @@ tags:
 
 （3）数据集一模一样。
 
+
+**Generating Personalized Dialogue via Multi-Task Meta-Learning** （PotsDial 2021）
+
+（1）解决的问题不算新，将模型更好地adapt到新的persona上。之前已经有工作，如PAML（Persona Agnostic Meta-Learning，19年的工作）使用meta-learning来解决问题。作者指出PAML在meta-learning和inference的过程中没法使用persona statements。
+
+（2）作者提出引入persona construction task，是得模型在meta-learning的过程中使用persona statement. 元学习的任务根据不同的persona来划分。
+
+（3）数据集是PersonChat，评价还是那些指标。
+
+**DLVGen: A Dual Latent Variable Approach to Personalized Dialogue Generation** （ICAART 2022）
+
+（1）与上文同一个组的工作，还是解决在推理的时候没有personal statement的情况（ generate  personalized  dialogue  givenonly the dialogue context）
+
+（2）但在训练的时候还是会使用使用personal statement，同时为了区别于CVAE，多加了一种latent variabel，因此还加了正则化来规范化两种latent varibale.
+
+（3）采用了Convai2数据集。
+
