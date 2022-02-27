@@ -54,3 +54,34 @@ tags:
 
 （3）采用了Convai2数据集。
 
+**Learning to Predict Persona Information for Dialogue Personalization without Explicit Persona Description** （2021.11.30）
+
+（1） 还是考虑在测试的时候没有显示的personal information的问题，相比较之前的工作，在提取出的personal information表示的可解释性上做了工作。
+
+（2）两种方法分别是persona approximator和persona generator，为了增强可解释性，如persona approximator会将persona encoder的输出与对persona information编码的信息比较相似度。persona generator生成显式的persona信息。
+
+（3）当condition在self persona上时，persona decription的加入会使得response中保持流畅性和一致性。当condition在their persona时，能够增加用户的参与感。
+
+（4）数据集是persona chat和dailydialog chat，为了测试模型的可迁移性，在persona上pretrain后，在dailydialog上finetune
+
+**Federated Natural Language Generation for Personalized Dialogue System** （2021.10.13 投了AAAI 2022，但应该没中）
+
+（1）提出persona information的data privacy的问题，并将联邦学习框架结合对话生成来解决safe personalized services的问题。
+
+（2）使用的数据集包括**Cornell  Movie-Dialogs**（contains a large metadata-rich collection of fictional conversations extracted from raw movie scripts）
+
+数据集描述：
+
+<img width="784" alt="5cbea999f2ab4615bc4a61f974efb4bb" src="https://user-images.githubusercontent.com/47687248/155882426-d99b027a-794a-4bfa-a0de-dea495404373.png">
+
+以及**The Big Bang Theory** dataset 和 **Friends** dataset
+
+**Call for Customized Conversation : Customized Conversation Grounding Persona and Knowledge** 
+
+（1）作者希望解决的问题，希望基于knowledge的模型在给出knowledge-groubded的回答时能够根据用户的personal information. 具体说来，在给素食者提供餐馆的时候，需要考虑对方的素食的persona. 但之前的数据集显然并不能既有persona information又具有knowledge.
+
+（2）因此，作者提出了新的数据集FoCus，支持knowledge-grounded answers that reflect user’s persona. 在数据集上还提了baseline.
+
+（3）FoCus数据集，Persona由5个sentence定义（experience,preference, possession, hobby or interest）以及knowledge构成
+<img width="354" alt="2fec57d31b91453c964ae196fdd44b6f" src="https://user-images.githubusercontent.com/47687248/155882529-705c5820-7322-4ad1-8ae4-d602dd107642.png">
+
