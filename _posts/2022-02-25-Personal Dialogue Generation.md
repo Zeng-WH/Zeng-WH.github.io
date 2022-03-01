@@ -85,3 +85,16 @@ tags:
 （3）FoCus数据集，Persona由5个sentence定义（experience,preference, possession, hobby or interest）以及knowledge构成
 <img width="354" alt="2fec57d31b91453c964ae196fdd44b6f" src="https://user-images.githubusercontent.com/47687248/155882529-705c5820-7322-4ad1-8ae4-d602dd107642.png">
 
+**Dual Task Framework for Improving Persona-grounded Dialogue Dataset** （AAAI 2022）
+
+（1）之前的personal dialogue generation模型主要是从模型的角度出发，作者从persona dataset数据集本身出发，之前数据集中的persona information缺少detailed experiance以及knowledge. 之前的person information存在不少linguistic biases，比如persona discription的reuse等。
+
+（2）作者提出了对偶任务框架，用来生成相关的persona来提升数据集。
+
+**Transferable Persona-Grounded Dialogues via Grounded Minimal Edits** （EMNLP 2021）
+
+（1）之前的受控生成在transferability存在两个困难：1. 由于标注者通常将persona或者 knowledge嵌入response，会导致grounded dialogue dataset和natural conversations之间存在distributional gap，因此训练出的模型会产生不自然的responses，并且会受dialogue history的distributional shift的影响。2. 没办法对unseen类型的concept进行泛化，比如在PERSONACHAT上训练的模型无法泛化到world knowledge上。
+
+(2) 作者提出grounding minimal editor，在existing responses上进行操作。最小化编辑existing responses，使其ground在concept同时，和dialogue history coherent. 但当提供其他类型的concept，不会遭遇gap
+(3) 作者在PERSONCHAT数据集基础上提出了PERSONAMINEDIT，用来衡量方法的有效性。
+
