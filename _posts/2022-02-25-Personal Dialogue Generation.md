@@ -93,8 +93,9 @@ tags:
 
 **Transferable Persona-Grounded Dialogues via Grounded Minimal Edits** （EMNLP 2021）
 
-（1）之前的受控生成在transferability存在两个困难：1. 由于标注者通常将persona或者 knowledge嵌入response，会导致grounded dialogue dataset和natural conversations之间存在distributional gap，因此训练出的模型会产生不自然的responses，并且会受dialogue history的distributional shift的影响。2. 没办法对unseen类型的concept进行泛化，比如在PERSONACHAT上训练的模型无法泛化到world knowledge上。
+(1) 之前的受控生成在transferability存在两个困难：1. 由于标注者通常将persona或者 knowledge嵌入response，会导致grounded dialogue dataset和natural conversations之间存在distributional gap，因此训练出的模型会产生不自然的responses，并且会受dialogue history的distributional shift的影响。2. 没办法对unseen类型的concept进行泛化，比如在PERSONACHAT上训练的模型无法泛化到world knowledge上。
 
 (2) 作者提出grounding minimal editor，在existing responses上进行操作。最小化编辑existing responses，使其ground在concept同时，和dialogue history coherent. 但当提供其他类型的concept，不会遭遇gap
+
 (3) 作者在PERSONCHAT数据集基础上提出了PERSONAMINEDIT，用来衡量方法的有效性。
 
