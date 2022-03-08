@@ -40,6 +40,35 @@ tags:
 
 （3）. 利用这些数据在CDialoGPT上测试了数据。
 
+## Perspective-taking and Pragmatics for GeneratingEmpathetic Responses Focused on Emotion Causes （EMNLP 2021）
+
+（1）. 为了在dialogues中表达出stronger empathy，作者认为需要识别utterance中引起emotion的word（也就是emotion cause）。同时在response中反映出这些emotion cause。
+
+（2）. 之前的基于识别emtion cause words需要sub-utterance级别的标注，作者则提出了生成式的estimator来从utterances中推理出emotion cause words。不需要监督式地训练模型识别emotion cause.
+
+（3）. RSA是一种让模型的输入更好地反映在模型的输出上的方法，作者基于RSA做出了改进，让模型生成关注于emotion cause的empathetic responses.
+
+（4）. 为了验证emotion cause的识别结果，在EMPATHETICDIALOGUES的验证集和测试集上做了emotion cause的标记，得到了结果。
+
+## Emotion Inference in Multi-Turn Conversations with Addressee-AwareModule and Ensemble Strategy (EMNLP 2021)
+
+（1）. 作者尝试解决的问题是multi-turn conversations中的emotion inference，emotion inference就是在对话中在不知道参与者的response的情况下预测出next upcoming turn参与者的emotion.
+
+（2）. 作者希望从两个角度建模对话历史中参与者的emotional states的传播来完成emotion inference的任务：对话者本身的历史情绪状态的保留以及受对方状态的影响。
+
+（3）. 由于参与者的next upcoming turn的exact response是未知的，因此采用模型ensemble的方法来增强模型的表现。
+
+（4）. 模型的数据集IEMOCAP，MELD以及EmoryNLP会给每个utternce一个emotion。
+
+## Improving Empathetic Response Generation by Recognizing EmotionCause in Conversations (EMNLP 2021 Findings)
+
+（1）. 之前的empathetic response generation主要是让模型预测emotion label，并基于label生成response. 然而作为引起emotion的emotion cause却经常被忽视。
+
+（2）. 作者引入了多任务框架，设计emotion reason来预测emotion label以及emotion cause. 并且使用门控机制将emotion cause加入到response generation.
+
+（3）. 在empathetic-dialogues训练测试模型，由于没有emotion cause的标记，因此使用在RECCON上训练的模型来打标签。
+
+
 ## 关于数据集EMPATHETIC-DIALOGUES dataset
 The EmpatheticDialogues dataset is a large-scale multi-turn empathetic dialogue dataset collected on the Amazon Mechanical Turk, containing 24,850 one-to-one open-domain conversations. Each conversation was obtained by pairing two crowd-workers: a speaker and a listener. The speaker is asked to talk about the personal emotional feelings. The listener infers the underlying emotion through what the speaker says and responds empathetically. The dataset provides 32 evenly distributed emotion labels.
 
