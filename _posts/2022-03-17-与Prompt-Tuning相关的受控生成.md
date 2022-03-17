@@ -16,10 +16,11 @@ tags:
 1. 将同一属性下的不同属性值的prefix训练引入对比学习，从而实现同时训练（比如不同主题的prefix引入对比学习），启发多种属性的组合泛化能否引入对比学习。
 2. 对多属性组合进行了初步的探讨，有些实验结果值得我们参考。
 
-
 ## Method
 在single-aspect control setting，作者介绍了supervised method以及unsupervised method
+
 ### Supervised Method
+
 <img width="405" alt="7ca1454c66ef45a3943e2eb16a8934d2" src="https://user-images.githubusercontent.com/47687248/158756349-6c320133-7ace-422f-944b-cc75558350c7.png">
 <img width="517" alt="截屏2022-03-17 下午3 16 11" src="https://user-images.githubusercontent.com/47687248/158756574-ae6ae6f0-feb3-4128-b3fd-be20200a0b0a.png">
 
