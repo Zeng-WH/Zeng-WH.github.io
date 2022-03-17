@@ -15,6 +15,8 @@ tags:
 比较有启发性的工作：
 1. 将同一属性下的不同属性值的prefix训练引入对比学习，从而实现同时训练（比如不同主题的prefix引入对比学习），启发多种属性的组合泛化能否引入对比学习。
 2. 对多属性组合进行了初步的探讨，有些实验结果值得我们参考。
+
+
 ## Method
 在single-aspect control setting，作者介绍了supervised method以及unsupervised method
 ### Supervised Method
@@ -36,10 +38,13 @@ unspervised method指的是，对于训练样本，只有input text x而没有at
 # Controlling the Focus of Pretrained Language Generation Models （ACL 2022  Findings）
 作者认为基于attention机制的模型虽然有用，但attention机制很难显示地控制模型的输出。比如attention如果关注到用户认为并不重要的内容，其实并没有很好的机制去修正。因此作者设计了用户可以直接在input中选择需要focus的内容，而模型生成相关output的机制。
 （作者的目标并不是控制模型的attention模块，相反考虑的是实际输出）
+
 ## Method
+
 <img width="633" alt="截屏2022-03-17 下午3 25 42" src="https://user-images.githubusercontent.com/47687248/158757970-3ffb4273-4f37-47dd-bc78-5e8b8f933fc6.png">
 
 ## Experiments
+
 在具体任务上，将模型在原始的训练集（非focus vectors）上finetune；在attribute methods标注的训练集训练focus vectors，在人工重写的验证集和测试集验证和测试。
 主实验结果：
 <img width="830" alt="aa9ddee9d643428fa1d6eac6877accf1" src="https://user-images.githubusercontent.com/47687248/158758168-91aece18-c244-4868-badd-5146ced7c283.png">
