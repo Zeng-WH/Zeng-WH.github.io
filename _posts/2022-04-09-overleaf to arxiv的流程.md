@@ -37,9 +37,9 @@ tags:
 
 解决方案很简单，这里需要利用到overleaf提供的**submit**功能，替你编译并生成`.bbl`文件。submit界面中选择arxiv并`Download project ZIP with submission files (e.g. .bbl)`。
 
-## 2. arXiv提交论文
+### 2.2 arXiv提交论文
 
-### 2.1 Start
+#### 2.2.1 Start
 
 登陆进arxiv，就可以START NEW SUBMISSION，第一页如下图所示
 
@@ -51,7 +51,7 @@ tags:
 
 其次用得多的是 第一个 CC 署名 license
 
-### 2.2 Add Files
+#### 2.2.2 Add Files
 
 下一步我们就到了提交文件
 
@@ -75,13 +75,13 @@ tags:
 
 ​		需要及时修改PDFLATEX文件中使用的文件名
 
-### 2.3 Process
+#### 2.2.3 Process
 
 编译成功：
 
 ![截屏2022-04-09 上午11 08 09](https://user-images.githubusercontent.com/47687248/162554350-63c6db5b-3d76-4220-b792-26b3fb7d0836.png)
 
-### 2.4 填写文章基本信息
+#### 2.2.4 填写文章基本信息
 
 ![](https://pic1.zhimg.com/80/v2-0df61b8d8c4ba337eaf2235e3d811db8_720w.jpg)
 
