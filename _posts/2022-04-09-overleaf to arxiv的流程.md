@@ -18,11 +18,11 @@ tags:
 
 点击overleaf左上角的submit按钮，选择**Submit your paper to the arXiv.**
 
-![截屏2022-04-09 上午10.44.56](/Users/andrewzeng/Library/Application Support/typora-user-images/截屏2022-04-09 上午10.44.56.png)
+![截屏2022-04-09 上午10 44 56](https://user-images.githubusercontent.com/47687248/162554296-d828a50f-951d-44b3-8e9c-5e12d96f8166.png)
 
 选择**Download project ZIP with submission files（e.g.bbl）**
 
-![截屏2022-04-09 上午10.46.06](/Users/andrewzeng/Library/Application Support/typora-user-images/截屏2022-04-09 上午10.46.06.png)
+![截屏2022-04-09 上午10 46 06](https://user-images.githubusercontent.com/47687248/162554306-8d3ad315-a887-481f-864d-82d1ed12cacc.png)
 
 原因是使用overleaf的过程中，参考文献通常会写在`.bib`文件里。再在正文中用如下命令调用
 
@@ -61,22 +61,20 @@ tags:
 
 1. 需要删除其他PDFLATEX文件（比如这里的`acl.text`,`Response_Letter.tex`），只保留论文对应的PDFLATEX文件。
 2. arxiv网站对文件命名的支持范围比较低，会将一些文件名替换成他们支持的文件名，这很可能会导致PDFLATEX无法找到对应的文件，进而无法编译。比如这里：
-
-#### 	![截屏2022-04-09 上午11.00.40](/Users/andrewzeng/Library/Application Support/typora-user-images/截屏2022-04-09 上午11.00.40.png)
+![截屏2022-04-09 上午11 00 40](https://user-images.githubusercontent.com/47687248/162554324-613615e3-d9bc-4894-a759-1bb3179a1024.png)
 
 ​		`ACL2022_new(3).pdf`的文件名就被更改为`ACL2022_new_3_.pdf`
 
 ​		在编译的时候就会有如下报错：
+![截屏2022-04-09 上午11 02 38](https://user-images.githubusercontent.com/47687248/162554338-77139b93-6908-44ab-884f-0b385bcbd663.png)
 
-![截屏2022-04-09 上午11.02.38](/Users/andrewzeng/Library/Application Support/typora-user-images/截屏2022-04-09 上午11.02.38.png)
 
 ​		需要及时修改PDFLATEX文件中使用的文件名
 
 ### 2.3 Process
 
 编译成功：
-
-![截屏2022-04-09 上午11.08.09](/Users/andrewzeng/Library/Application Support/typora-user-images/截屏2022-04-09 上午11.08.09.png)
+![截屏2022-04-09 上午11 08 09](https://user-images.githubusercontent.com/47687248/162554350-63c6db5b-3d76-4220-b792-26b3fb7d0836.png)
 
 ### 2.4 填写文章基本信息
 
