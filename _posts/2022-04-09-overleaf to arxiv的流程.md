@@ -61,11 +61,15 @@ tags:
 
 1. 需要删除其他PDFLATEX文件（比如这里的`acl.text`,`Response_Letter.tex`），只保留论文对应的PDFLATEX文件。
 2. arxiv网站对文件命名的支持范围比较低，会将一些文件名替换成他们支持的文件名，这很可能会导致PDFLATEX无法找到对应的文件，进而无法编译。比如这里：
+
+
 ![截屏2022-04-09 上午11 00 40](https://user-images.githubusercontent.com/47687248/162554324-613615e3-d9bc-4894-a759-1bb3179a1024.png)
 
 ​		`ACL2022_new(3).pdf`的文件名就被更改为`ACL2022_new_3_.pdf`
 
 ​		在编译的时候就会有如下报错：
+
+
 ![截屏2022-04-09 上午11 02 38](https://user-images.githubusercontent.com/47687248/162554338-77139b93-6908-44ab-884f-0b385bcbd663.png)
 
 
