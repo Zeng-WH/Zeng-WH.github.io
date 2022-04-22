@@ -14,6 +14,7 @@ tags:
 # A Model-agnostic Data Manipulation Method for Persona-based Dialogue Generation
 
 有限的persona-based dialogue数据很难训练好对话生成模型。从数据的角度看，该任务的困难在于：
+
  (1) 很难大规模扩展当前的persona-based对话数据集。
  
  (2) 相比于传统的对话数据，当前任务的对话样本很难被学习。具体而言，因为对话历史和persona的共同参与。同时PersonaChat数据集中不是所有的repsponse都能与提供的persona保持一致。
