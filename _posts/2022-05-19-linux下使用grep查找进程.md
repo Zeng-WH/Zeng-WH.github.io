@@ -1,19 +1,17 @@
-# 2022-05-19-linux下使用grep查找进程
-
-```
+---
 layout:     post
-title:      "不同服务器的虚拟环境迁移"
+title:      "grep查找进程"
 subtitle:   记录技术！
-date:       2022-02-25 23:00:00
+date:       2022-05-19 21:00:00
 author:     "Andrew Zeng"
 tags:
     - 技术分享
     - Linux服务器
-```
+---
 
 当无法通过`top-i`获取进程的PID时，可以通过grep查找执行的命令从而获得对应的PID.
 
-# 1. 查找指定进程
+## 1. 查找指定进程
 
 `train_gpt_prompt`是需要查找的进程的关键字
 
@@ -33,7 +31,7 @@ hadoop-+ 1500439 1499837 0 20:49 pts/256 00:00:00 grep --color=auto train_gpt_pr
 
 第一条记录是查找出的进程；第二条结果是[grep](https://so.csdn.net/so/search?q=grep&spm=1001.2101.3001.7020)进程本身，并非真正要找的进程。
 
-# 2. 查找指定进程个数
+## 2. 查找指定进程个数
 
 ```shell
 ps -ef | grep mmp-front -c  或者
@@ -45,7 +43,7 @@ ps -ef | grep -c mmp-front12
 3
 ```
 
-# 3. 杀死进程
+## 3. 杀死进程
 
 ```shell
 kill -KILL PID
