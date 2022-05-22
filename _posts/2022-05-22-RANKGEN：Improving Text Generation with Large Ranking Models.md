@@ -1,4 +1,3 @@
-
 ---
 
 layout:     post
@@ -7,10 +6,8 @@ subtitle:   读读Google的研究！
 date:       2022-05-22 21:00:00
 author:     "Andrew Zeng"
 tags:
-
     - 文本生成
     - 对比学习
-
 ---
 
 论文来源：Google Research
