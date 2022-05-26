@@ -49,3 +49,54 @@ DPT方法相比较finetune在全样本和少样本上都有较大提升。
 从下图可以看出，DPT的方法相比较finetune有更好的稳定性。
 
 ![a88dd089056746229e3e01c97a723af3](https://user-images.githubusercontent.com/47687248/170032518-03447f1c-3c63-4000-8fd4-7cf3faf2e544.png)
+
+## Learning a Better Initialization for Soft Prompts via Meta-Learning
+
+![fdb2da77fd3544a8afa10ec3c0275824](https://user-images.githubusercontent.com/47687248/170504893-347a75f2-99e5-440c-8286-1aac4a56c3ec.png)
+
+### 1. Introduction
+
+传统的Prompt-Tuning方法在没有比较好的初始化时很难在小样本设置上表现良好。本文在PPT的基础上利用Meta Learning通过考虑预训练数据的latent structure来提升PPT的初始化。
+
+PPT使用自监督预训练任务预训练soft prompts，将这些预训练好的prompts运用到小样本的下游任务上。作者认为，PPT的限制是将所有的预训练数据混合在一起，而将所有的样本平等对待。因此，PPT保持了仅与预训练任务相关的冗余信息，会影响模型在下游任务的表现。
+
+作者提出的MetaPT，希望能够将预训练数据和下游任务共享的特征编码进prompt的初始化中，从而使得模型可以更快迁移到下游任务中。
+
+### 2. Meta-learned Prompt Tuning
+
+![a1e4d8e84b6e4a1586a4a310400d4c27](https://user-images.githubusercontent.com/47687248/170505082-30de48cf-add7-4313-9c65-0efac818f7f3.png)
+
+#### 2.1 Pretraining Tasks Data
+
+构造完成预训练数据后，通过聚类算将样本分为K类
+
+![a539ce284d9c495bbaa01847a11adc94](https://user-images.githubusercontent.com/47687248/170505208-6694e4ef-3bab-4e56-a217-2222e678ba6d.png)
+
+#### 2.2 Prompt-MAML Algorithm
+
+使用MAML学习meta任务中的通用特征。随机初始化soft prompts的参数$P$, 对于meta task $T_{i}$, 采样m个样本，计算平均损失$L_{T_{i}}(f_{P})$,暂时梯度更新soft prompts：
+
+![b3a7358ea21b45959df3b330391f6005](https://user-images.githubusercontent.com/47687248/170505366-1a101d7b-b367-479b-a2ec-7b0e0403ce8f.png)
+
+更新完prompts后，再采样m个样本，计算损失$L_{T_{i}}(f_{P_{i}^{'}})$, 将上述过程运用于其他meta tasks，更新prompts：
+
+![76171c81922a4189ab6d24df20bb38f1](https://user-images.githubusercontent.com/47687248/170505424-4c1fcdcf-2660-4c11-b530-4cacc04c1ce5.png)
+
+上式为prompts一次完整更新过程。
+
+![7704fd897f054f9ca211e67fb4acba09](https://user-images.githubusercontent.com/47687248/170505485-ff884387-7ce9-4514-9eaa-c2619de7e7a0.png)
+
+### 3. Experiments
+
+可以看到MetaPT在7个任务上相比较PPT都有了较大的提升。
+
+![f6074c3d4a09441a823878093488b805](https://user-images.githubusercontent.com/47687248/170505608-537ac889-d172-4a01-8e18-e46e98d266b5.png)
+
+同时在小样本上，MetaPT也比之前的方法稳定
+
+![d0e39eaf7b824f33a19de355f9d072f9](https://user-images.githubusercontent.com/47687248/170505661-1570ff80-96d1-49f6-8ff1-41a10f6e83a3.png)
+
+
+
+
+
