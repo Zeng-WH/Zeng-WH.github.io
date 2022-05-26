@@ -11,7 +11,7 @@ tags:
     - Meta Learning
 ---
 
-##  Long-term Control for Dialogue Generation: Methods and Evaluation
+##  Paper1: Long-term Control for Dialogue Generation: Methods and Evaluation
 
 (1). 作者提出了新的问题：constrained long-term dialogue genreation. 所谓long-tem的控制，希望控制词汇能够自然地出现在后续对话中。如下图所示
 
@@ -21,7 +21,7 @@ tags:
 (3). 作者提出了解决上述问题的基线模型。
 
 
-## Prompt Tuning for Discriminative Pre-trained Language Models （ACL 2022 Finding）
+## Paper2: Prompt Tuning for Discriminative Pre-trained Language Models （ACL 2022 Finding）
 
 ![bd11d1b583504723816f8c06e84a1d27](https://user-images.githubusercontent.com/47687248/170032301-811ee7fe-5793-4357-a121-ec4477580aee.png)
 
@@ -51,7 +51,7 @@ DPT方法相比较finetune在全样本和少样本上都有较大提升。
 
 ![a88dd089056746229e3e01c97a723af3](https://user-images.githubusercontent.com/47687248/170032518-03447f1c-3c63-4000-8fd4-7cf3faf2e544.png)
 
-## Learning a Better Initialization for Soft Prompts via Meta-Learning
+## Paper3: Learning a Better Initialization for Soft Prompts via Meta-Learning
 
 ![fdb2da77fd3544a8afa10ec3c0275824](https://user-images.githubusercontent.com/47687248/170504893-347a75f2-99e5-440c-8286-1aac4a56c3ec.png)
 
