@@ -1,5 +1,3 @@
-# 2022-06-03-Diffusion-LM Improves Controllable Text Generation
-
 ---
 
 layout:     post
@@ -11,7 +9,6 @@ tags:
 
   - 文本生成
   - 可控相关
-
 ---
 
 看到Prefix-Tuning的作者最近也在研究可控文本生成，主要思路是将CV生成中DDPM迁移到NLP中，并且用类似PPLM的方法实现控制。
