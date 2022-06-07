@@ -17,11 +17,15 @@ tags:
 
 为解决上述问题，作者提出了基于prompt learning的retrieval-augmented框架（RETROPROMPT）。希望通过检索的机制来从单纯的记忆中解藕出知识从而提升prompt learning的泛化能力。如下图
 
+<img width="617" alt="2f793ca574a84257b3d65beef2415dfe" src="https://user-images.githubusercontent.com/47687248/172434763-1285db1c-d7b8-4851-be0c-afc60b4fcc2a.png">
+
 **作者设计了记忆分数用来判断出哪些样本是非典型的样本**
 
 ## 2. RETROPROMPT: etrieval-augmented Prompt Learning
 
 模型的结构如下图所示
+
+![f5cb500b00384f9f88563207ba8f276c](https://user-images.githubusercontent.com/47687248/172434822-f9a215c7-666e-405b-b5c6-96cdff1e81af.png)
 
 RETROPROMPT包括了三个组件：用于增强输入内容的neural demonstration的检索；KNN引导的训练；基于KNN概率的cloze-style预测。
 
@@ -37,6 +41,8 @@ RETROPROMPT包括了三个组件：用于增强输入内容的neural demonstrati
 
 将memorization measures定义为当训练样本z从训练集移除后模型分类效果的变化。
 
+<img width="934" alt="c1932b00ca054c6f9140ab03e9eff300" src="https://user-images.githubusercontent.com/47687248/172434883-09f68651-ea3a-4d16-829f-fb2ab6678533.png">
+
 ### 3.2 Top-memorized Instances：Typical or Atypical
 
 具有较高memorization measures的样本自然是模型着重记忆的样本，作者希望能够判断这些样本就是Typical还是Atypical的。
@@ -44,6 +50,8 @@ RETROPROMPT包括了三个组件：用于增强输入内容的neural demonstrati
 作者使用SST-2数据集来分析样本是否为atypical数据，主要通过检查postive phrases的占比进行判断。通过统计可以发现typical positive instance通常有着相对较高的positive phrases占比，typical negative instance通常有着较低positive phrases占比。
 
 因此作者选择了训练集中Top-10 %以及Bottom-10 %的memorization score的样本，统计其中positive phrases占比。
+
+<img width="468" alt="7b11841eba2a43e5bb4b69bc9cd42825" src="https://user-images.githubusercontent.com/47687248/172434926-60ab1f2b-a174-4181-87c9-44381fa47067.png">
 
 由上表可以看出得出结论：
 
