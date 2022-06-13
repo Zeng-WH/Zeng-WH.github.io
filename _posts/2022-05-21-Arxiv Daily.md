@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "Arxiv Daily"
-subtitle:   日常读论文！（2022y05m21d）
-date:       2022-05-21 20:00:00
+subtitle:   日常读论文！（2022y05m21d-2022y06m13d）
+date:       2022-06-13 20:00:00
 author:     "Andrew Zeng"
 tags:
     - 文本生成
@@ -22,8 +22,6 @@ tags:
 
 
 ## Paper2: Prompt Tuning for Discriminative Pre-trained Language Models （ACL 2022 Finding）
-
-[comment]: <> (![bd11d1b583504723816f8c06e84a1d27](https://user-images.githubusercontent.com/47687248/170032301-811ee7fe-5793-4357-a121-ec4477580aee.png)）
 
 当前prompt-tuning的工作主要关注generative PLMs，如BERT，GPT等，却忽视了discriminative PLMs，如ELECTRA. 作者提出了DPT，第一个用于discriminative PLMs的prompt tuning框架。作者在文本分类和QA问题上测试了方法的效果，DPT在全样本和小样本上的表现甚至超越了finetuning的结果。
 
@@ -53,7 +51,6 @@ DPT方法相比较finetune在全样本和少样本上都有较大提升。
 
 ## Paper3: Learning a Better Initialization for Soft Prompts via Meta-Learning
 
-![fdb2da77fd3544a8afa10ec3c0275824](https://user-images.githubusercontent.com/47687248/170504893-347a75f2-99e5-440c-8286-1aac4a56c3ec.png)
 
 ### 1. Introduction
 
