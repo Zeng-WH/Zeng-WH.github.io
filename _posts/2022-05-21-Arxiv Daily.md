@@ -23,7 +23,7 @@ tags:
 
 ## Paper2: Prompt Tuning for Discriminative Pre-trained Language Models （ACL 2022 Finding）
 
-![bd11d1b583504723816f8c06e84a1d27](https://user-images.githubusercontent.com/47687248/170032301-811ee7fe-5793-4357-a121-ec4477580aee.png)
+[comment]: <> (![bd11d1b583504723816f8c06e84a1d27](https://user-images.githubusercontent.com/47687248/170032301-811ee7fe-5793-4357-a121-ec4477580aee.png)）
 
 当前prompt-tuning的工作主要关注generative PLMs，如BERT，GPT等，却忽视了discriminative PLMs，如ELECTRA. 作者提出了DPT，第一个用于discriminative PLMs的prompt tuning框架。作者在文本分类和QA问题上测试了方法的效果，DPT在全样本和小样本上的表现甚至超越了finetuning的结果。
 
