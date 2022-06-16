@@ -143,4 +143,15 @@ You can set an individual font size for the legend by adjusting the prop keyword
 plot.legend(loc=2, prop={'size': 6})
 ```
 
+## 4. 配色
+
+几个个人觉得比较高级的配色：
+
+```python
+color = ["goldenrod", "teal", "#aaa662"]
+```
+
+The 954 most common RGB monitor colors, as defined by several hundred thousand participants in the xkcd color name survey. (查配色):
+
+https://xkcd.com/color/rgb/
 
