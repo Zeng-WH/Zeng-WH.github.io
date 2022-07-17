@@ -1,4 +1,4 @@
-# 2022-07-17-Task-Oriented Dialogue Pretrained-Model
+# 2022-07-17-Task-Oriented Dialogue Pre-trained Model
 
 
 
