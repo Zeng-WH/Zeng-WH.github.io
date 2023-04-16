@@ -19,5 +19,11 @@ I am a Master's student at the Pattern Recognition and Intelligent System Labora
    Lulu Zhao, Fujia Zheng, **Weihao Zeng**, Keqing He, Ruotong Geng, Huixing Jiang, Wei Wu, Weiran Xu
    
    **SIGIR 2022** [paper](https://dl.acm.org/doi/10.1145/3477495.3531933) 
+   
+3. Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization
+
+   Lulu Zhao, Fujia Zheng, **Weihao Zeng**, Keqing He, Weiran Xu, Huixing Jiang, Wei Wu, Yanan Wu
+   
+   **NAACL 2022** [paper](https://aclanthology.org/2022.naacl-main.357.pdf)
 
 
