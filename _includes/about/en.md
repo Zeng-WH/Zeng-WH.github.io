@@ -2,10 +2,8 @@ I am a Master's student at the Pattern Recognition and Intelligent System Labora
 
 # 📝 Publications 
 
-1. **Semi-Supervised Knowledge-Grounded Pre-training for Task-Oriented Dialog Systems**  
+1. Semi-Supervised Knowledge-Grounded Pre-training for Task-Oriented Dialog Systems 
    **Weihao Zeng**, Keqing He, Zechen Wang, Dayuan Fu, Guanting Dong, Ruotong Geng, Pei Wang, Jingang Wang, Chaobo Sun, Wei Wu, Weiran Xu
-
-   SereTOD 2022 WorkShop, EMNLP 2022  [paper](https://aclanthology.org/2022.seretod-1.6.pdf)
-
+   **SereTOD 2022 WorkShop, EMNLP 2022**   [paper](https://aclanthology.org/2022.seretod-1.6.pdf)
 
 
