@@ -25,5 +25,11 @@ I am a Master's student at the Pattern Recognition and Intelligent System Labora
    Lulu Zhao, Fujia Zheng, **Weihao Zeng**, Keqing He, Weiran Xu, Huixing Jiang, Wei Wu, Yanan Wu
    
    **NAACL 2022** [paper](https://aclanthology.org/2022.naacl-main.357.pdf)
+   
+4. Give the Truth: Incorporate Semantic Slot into Abstractive Dialogue Summarization
+
+   Lulu Zhao, **Weihao Zeng**, Weiran Xu, Jun Guo
+   
+   **EMNLP 2021** [paper](https://pdfs.semanticscholar.org/bbc4/08a278613621e107b2d3caff06edbd688d80.pdf?_gl=1*qle2t2*_ga*MTY2NzMzNzY4Ny4xNjc5ODg1NDQ3*_ga_H7P4ZT52H5*MTY4MTYzNTMwNC4zNC4xLjE2ODE2MzY4MTMuMC4wLjA.)
 
 
