@@ -37,5 +37,9 @@ I am a Master's student at the Pattern Recognition and Intelligent System Labora
    Lulu Zhao, Fujia Zheng, Keqing He, **Weihao Zeng**, Yuejie Lei, Huixing Jiang, Wei Wu, Weiran Xu, Jun Guo, Fanyu Meng
    
    **Arxiv 2022** [paper](https://arxiv.org/pdf/2110.12680.pdf)
+   
+# 🎖 Competitions and Awards
+
+- **2022-09**: 🏆🏆 Achieved the 1st rank on [SereTOD Challenge 2022](http://seretod.org/Challenge.html) track 2, EMNLP 2022!
 
 
