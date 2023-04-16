@@ -42,3 +42,6 @@ I am a Master's student at the Pattern Recognition and Intelligent System Labora
 
 - **2022-09**: 🏆🏆 Achieved the 1st Award on [SereTOD Challenge 2022](http://seretod.org/Challenge.html) track 2, EMNLP 2022!
 - **2021-08**: 🏆🏆 Achieved the 4th Award on [SMP 2021](https://conference.cipsc.org.cn/smp2021/) Conversational AI Challenge!
+- **2021-09**: 🏆🏆 Achieved the 8th Place on [CCIR 2021](https://www.datafountain.cn/competitions/511/ranking?isRedance=1&sch=1793&stage=B)  Intelligent Natural Language Understanding Challenge!
+
+
