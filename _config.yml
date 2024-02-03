@@ -1,9 +1,9 @@
 # Site settings
-title: Andrew Zeng
-SEOTitle: 曾伟豪的博客 | Andrew Zeng Blog
+title: Weihao Zeng
+SEOTitle: 曾伟豪的博客 | Weihao Zeng Blog
 header-img: img/home-bg.jpg
 email: ZengWH@bupt.edu.cn
-description: "北京邮电大学学生"
+description: "Researcher in NLP"
 keyword: "Deep Learning, NLP"
 url: "https://github.com/Zeng-WH/Zeng-WH.github.io"              # your host, for absolute URL
 baseurl: ""
@@ -79,7 +79,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Andrew Zeng(曾伟豪), Master’s student at PRIS-NLP, BUPT. Fosucing on text generation, dialogue pre-training, and task-oriented dialogue systems."
+sidebar-about-description: "Weihao Zeng(曾伟豪), postgraduate student at PRIS-NLP, BUPT. Fosucing on large language models, and dialogue systems."
 sidebar-avatar: https://user-images.githubusercontent.com/47687248/232314816-5515b3f9-ab3a-4fbf-92ad-5394d3861dd0.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
