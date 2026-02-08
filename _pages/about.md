@@ -29,6 +29,44 @@ Feel free to email me for any form of academic cooperation: wzengak@connect.ust.
 - **2024-01**: Our [Deita](https://arxiv.org/abs/2312.15685) has been accepted by ICLR 2024!
 - **2023-05**: Two papers have been accepted by ACL 2023!
 
+## Publications
+
+- **SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild**
+  Weihao Zeng\*, Yuzhen Huang\*, Qian Liu, Wei Liu, Keqing He, Zejun Ma, Junxian He
+  *Preprint* | [Paper](https://arxiv.org/abs/2503.18892) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason)
+
+- **7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient**
+  Weihao Zeng\*, Yuzhen Huang\*, Wei Liu, Keqing He, Qian Liu, Zejun Ma, Junxian He
+  *Preprint* | [Project](https://hkust-nlp.notion.site/simplerl-reason) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason/tree/v0)
+
+- **B-STAR: Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners**
+  Weihao Zeng\*, Yuzhen Huang\*, Lulu Zhao, Yijun Wang, Zifei Shan, Junxian He
+  *ICLR 2025* | [Paper](https://arxiv.org/abs/2412.17256)
+
+- **Automatic Instruction Evolving for Large Language Models**
+  Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen
+  *EMNLP 2024* | [Paper](https://arxiv.org/abs/2406.00770)
+
+- **What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning**
+  Wei Liu\*, Weihao Zeng\*, Keqing He, Yong Jiang, Junxian He
+  *ICLR 2024* | [Paper](https://arxiv.org/abs/2312.15685)
+
+- **FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue**
+  Weihao Zeng, Keqing He, Yejie Wang, Chen Zeng, Jingang Wang, Yunsen Xian, Weiran Xu
+  *ACL 2023* | [Paper](https://arxiv.org/abs/2306.10315)
+
+- **Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation**
+  Weihao Zeng, Lulu Zhao, Keqing He, Ruotong Geng, Jingang Wang, Wei Wu, Weiran Xu
+  *ACL 2023* | [Paper](https://arxiv.org/abs/2306.10317)
+
+## Invited Talks
+
+- **2025-04**: SimpleRL-Zoo and B-STaR @ Qingke Talk (Online)
+- **2025-03**: SimpleRL-Zoo @ Westlake University (Hangzhou, China)
+- **2025-02**: SimpleRL @ Huawei Noah's Ark Lab (Online)
+- **2025-02**: SimpleRL @ TikTok (Online)
+- **2025-02**: SimpleRL @ Northwestern University (Evanston, IL, USA)
+
 ## Competitions and Awards
 
 - **National Scholarship in China** (2019/2023)
