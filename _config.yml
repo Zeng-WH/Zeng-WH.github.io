@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Weihao Zeng"
   pronouns         : # example: "she/her"
-  bio              : "PhD student at HKUST, focusing on LLM post-training"
+  bio              : "PhD student at HKUST CSE, focusing on LLM post-training"
   location         : "Hong Kong"
-  employer         : "Hong Kong University of Science and Technology"
+  employer         : "HKUST"
   uri              : # URL
-  email            : "zengweihao96@gmail.com"
+  email            : "wzengak@connect.ust.hk"
 
   # Academic websites
   academia         : # URL
@@ -79,7 +79,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : "http://zhihu.com/people/fen-nu-de-xiao-chong-8" # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
