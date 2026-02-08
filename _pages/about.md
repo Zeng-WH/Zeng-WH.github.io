@@ -22,42 +22,45 @@ Feel free to email me for any form of academic cooperation: wzengak@connect.ust.
 
 ## News
 
+- **2026-01**: Two papers have been accepted by ICLR 2026!
+- **2025-10**: We introduce Toolathlon,  a benchmark for language agents offering diverse applications and tools, realistic environment setup, and reliable execution-based evaluation! [Toolathlon](https://arxiv.org/abs/2510.25726) [Leaderboard](https://toolathlon.xyz/introduction)
 - **2025-03**: We introduce SimpleRL-Zoo, a deep investigation of zero RL training across diverse model families and sizes! [SimpleRL-Zoo](https://arxiv.org/abs/2503.18892) [Twitter](https://x.com/junxian_he/status/1904527884934697050)
 - **2025-01**: Announce our latest effort on O/R-1 Style Model and Scalable Reinforcement Learning for LLM Reasoning! [SimpleRL](https://hkust-nlp.notion.site/simplerl-reason) [Twitter](https://x.com/junxian_he/status/1883183099787571519)
 - **2025-01**: Our [B-STaR](https://arxiv.org/abs/2412.17256) has been accepted by ICLR 2025!
 - **2024-09**: Our [Auto Evol-Instruct](https://arxiv.org/abs/2406.00770) has been accepted by EMNLP 2024!
 - **2024-01**: Our [Deita](https://arxiv.org/abs/2312.15685) has been accepted by ICLR 2024!
-- **2023-05**: Two papers have been accepted by ACL 2023!
+
 
 ## Publications
 
 - **SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild**
   Weihao Zeng\*, Yuzhen Huang\*, Qian Liu, Wei Liu, Keqing He, Zejun Ma, Junxian He
-  *Preprint* | [Paper](https://arxiv.org/abs/2503.18892) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason)
+  COLM 2025 | [Paper](https://arxiv.org/abs/2503.18892) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason)
+
+- **The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution**
+  Junlong Li\*, Wenshuo Zhao\*, Jian Zhao\*, Weihao Zeng\*, Haoze Wu\*, Xiaochen Wang, Rui Ge, Yuxuan Cao, Yuzhen Huang, Wei Liu, Junteng Liu, Zhaochen Su, Yiyang Guo, Fan Zhou, Lueyang Zhang, Juan Michelini, Xingyao Wang, Xiang Yue, Shuyan Zhou, Graham Neubig, Junxian He
+  ICLR 2026 | [Paper](https://arxiv.org/abs/2510.25726) | [Github](https://github.com/hkust-nlp/Toolathlon) | [Leaderboard](https://toolathlon.xyz/introduction)
+
+- **Pushing test-time scaling limits of deep search with asymmetric verification**
+  Weihao Zeng, Keqing He, Chuqiao Kuang, Xiaoguang Li, Junxian He
+  ICLR 2026 | [Paper](https://arxiv.org/pdf/2510.06135) | [Github](https://github.com/hkust-nlp/deepsearch-tts)
 
 - **7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient**
   Weihao Zeng\*, Yuzhen Huang\*, Wei Liu, Keqing He, Qian Liu, Zejun Ma, Junxian He
-  *Preprint* | [Project](https://hkust-nlp.notion.site/simplerl-reason) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason/tree/v0)
+  HKUST-NLP Blog | [Project](https://hkust-nlp.notion.site/simplerl-reason) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason/tree/v0)
 
 - **B-STAR: Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners**
   Weihao Zeng\*, Yuzhen Huang\*, Lulu Zhao, Yijun Wang, Zifei Shan, Junxian He
-  *ICLR 2025* | [Paper](https://arxiv.org/abs/2412.17256)
+  ICLR 2025 | [Paper](https://arxiv.org/abs/2412.17256)
 
 - **Automatic Instruction Evolving for Large Language Models**
   Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen
-  *EMNLP 2024* | [Paper](https://arxiv.org/abs/2406.00770)
+  EMNLP 2024 | [Paper](https://arxiv.org/abs/2406.00770)
 
 - **What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning**
   Wei Liu\*, Weihao Zeng\*, Keqing He, Yong Jiang, Junxian He
-  *ICLR 2024* | [Paper](https://arxiv.org/abs/2312.15685)
+  ICLR 2024 | [Paper](https://arxiv.org/abs/2312.15685)
 
-- **FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue**
-  Weihao Zeng, Keqing He, Yejie Wang, Chen Zeng, Jingang Wang, Yunsen Xian, Weiran Xu
-  *ACL 2023* | [Paper](https://arxiv.org/abs/2306.10315)
-
-- **Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation**
-  Weihao Zeng, Lulu Zhao, Keqing He, Ruotong Geng, Jingang Wang, Wei Wu, Weiran Xu
-  *ACL 2023* | [Paper](https://arxiv.org/abs/2306.10317)
 
 ## Invited Talks
 
