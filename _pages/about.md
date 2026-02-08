@@ -34,32 +34,32 @@ Feel free to email me for any form of academic cooperation: wzengak@connect.ust.
 ## Publications
 
 - **SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild**
-  Weihao Zeng\*, Yuzhen Huang\*, Qian Liu, Wei Liu, Keqing He, Zejun Ma, Junxian He
-  COLM 2025 | [Paper](https://arxiv.org/abs/2503.18892) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason)
+  <br>**Weihao Zeng**\*, Yuzhen Huang\*, Qian Liu, Wei Liu, Keqing He, Zejun Ma, Junxian He
+  <br>*COLM 2025* \| [Paper](https://arxiv.org/abs/2503.18892) \| [GitHub](https://github.com/hkust-nlp/simpleRL-reason)
 
 - **The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution**
-  Junlong Li\*, Wenshuo Zhao\*, Jian Zhao\*, Weihao Zeng\*, Haoze Wu\*, Xiaochen Wang, Rui Ge, Yuxuan Cao, Yuzhen Huang, Wei Liu, Junteng Liu, Zhaochen Su, Yiyang Guo, Fan Zhou, Lueyang Zhang, Juan Michelini, Xingyao Wang, Xiang Yue, Shuyan Zhou, Graham Neubig, Junxian He
-  ICLR 2026 | [Paper](https://arxiv.org/abs/2510.25726) | [Github](https://github.com/hkust-nlp/Toolathlon) | [Leaderboard](https://toolathlon.xyz/introduction)
+  <br>Junlong Li\*, Wenshuo Zhao\*, Jian Zhao\*, **Weihao Zeng**\*, Haoze Wu\*, Xiaochen Wang, Rui Ge, Yuxuan Cao, Yuzhen Huang, Wei Liu, Junteng Liu, Zhaochen Su, Yiyang Guo, Fan Zhou, Lueyang Zhang, Juan Michelini, Xingyao Wang, Xiang Yue, Shuyan Zhou, Graham Neubig, Junxian He
+  <br>*ICLR 2026* \| [Paper](https://arxiv.org/abs/2510.25726) \| [GitHub](https://github.com/hkust-nlp/Toolathlon) \| [Leaderboard](https://toolathlon.xyz/introduction)
 
-- **Pushing test-time scaling limits of deep search with asymmetric verification**
-  Weihao Zeng, Keqing He, Chuqiao Kuang, Xiaoguang Li, Junxian He
-  ICLR 2026 | [Paper](https://arxiv.org/pdf/2510.06135) | [Github](https://github.com/hkust-nlp/deepsearch-tts)
+- **Pushing Test-Time Scaling Limits of Deep Search with Asymmetric Verification**
+  <br>**Weihao Zeng**, Keqing He, Chuqiao Kuang, Xiaoguang Li, Junxian He
+  <br>*ICLR 2026* \| [Paper](https://arxiv.org/abs/2510.06135) \| [GitHub](https://github.com/hkust-nlp/deepsearch-tts)
 
 - **7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient**
-  Weihao Zeng\*, Yuzhen Huang\*, Wei Liu, Keqing He, Qian Liu, Zejun Ma, Junxian He
-  HKUST-NLP Blog | [Project](https://hkust-nlp.notion.site/simplerl-reason) | [GitHub](https://github.com/hkust-nlp/simpleRL-reason/tree/v0)
+  <br>**Weihao Zeng**\*, Yuzhen Huang\*, Wei Liu, Keqing He, Qian Liu, Zejun Ma, Junxian He
+  <br>*HKUST-NLP Blog* \| [Project](https://hkust-nlp.notion.site/simplerl-reason) \| [GitHub](https://github.com/hkust-nlp/simpleRL-reason/tree/v0)
 
 - **B-STAR: Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners**
-  Weihao Zeng\*, Yuzhen Huang\*, Lulu Zhao, Yijun Wang, Zifei Shan, Junxian He
-  ICLR 2025 | [Paper](https://arxiv.org/abs/2412.17256)
+  <br>**Weihao Zeng**\*, Yuzhen Huang\*, Lulu Zhao, Yijun Wang, Zifei Shan, Junxian He
+  <br>*ICLR 2025* \| [Paper](https://arxiv.org/abs/2412.17256)
 
 - **Automatic Instruction Evolving for Large Language Models**
-  Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen
-  EMNLP 2024 | [Paper](https://arxiv.org/abs/2406.00770)
+  <br>**Weihao Zeng**, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen
+  <br>*EMNLP 2024* \| [Paper](https://arxiv.org/abs/2406.00770)
 
 - **What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning**
-  Wei Liu\*, Weihao Zeng\*, Keqing He, Yong Jiang, Junxian He
-  ICLR 2024 | [Paper](https://arxiv.org/abs/2312.15685)
+  <br>Wei Liu\*, **Weihao Zeng**\*, Keqing He, Yong Jiang, Junxian He
+  <br>*ICLR 2024* \| [Paper](https://arxiv.org/abs/2312.15685)
 
 
 ## Invited Talks
